@@ -1,0 +1,57 @@
+body {
+    background: url("./space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.errooou {
+    font-family: "Audiowide", sans-serif;
+    font-weight: bold;
+    color: #ffffff; 
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.fim {
+    font-family: "Audiowide", sans-serif;
+    color: #ff1919; 
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center; 
+
+}
+
+.retorna {
+    font-family: "Audiowide", sans-serif; 
+    color: #ffffff; 
+    font-size: 20px;
+    width: 250px;;
+    background: #00008b; 
+    padding: 20px;
+    text-align: center; 
+    border-radius: 10px; 
+    position: absolute; 
+    left : 40%;
+    top: 70%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.retorna:hover {
+    color: #a821bd;
+    transition: color 1s; 
+    
+}
+
+#alien {
+    position: absolute; 
+    right: 300px;
+}
+
+#meteoro {
+    position: absolute; 
+    top: 50px;
+    right:40px;
+}

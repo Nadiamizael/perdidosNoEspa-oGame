@@ -1,0 +1,42 @@
+body {
+    background: url(./space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    color: #ffffff; 
+    font-family: "Audiowide", sans-serif; 
+    font-size: 80px;
+   text-align: center; 
+   margin-top: 20%; 
+   font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.botaoinicial {
+    background: #00008b;
+    color: #000000; 
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px; 
+    font-weight: bold;
+    padding: 20px; 
+    border-radius: 5px; 
+    position: absolute;
+    left: 40%;
+    top: 70%; 
+
+}
+
+
+
+.botaoinicial:hover{
+    padding: 25px; 
+    transition: padding 1s; 
+    color: #a821bd;
+}

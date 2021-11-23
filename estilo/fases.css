@@ -1,0 +1,57 @@
+body {
+    background-image: url(./planeta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background: #1089cf7c;
+    height: 650px;
+    margin: 40px;
+    border-radius: 15px;
+
+}
+.fase {
+    font-family: "Audiowide" , sans-serif; 
+    font-size: 25px; 
+    font-weight: bold;
+    color: #000000; 
+    text-align: center; 
+    margin-top: 60px;
+}
+
+.perguntas {
+    font-family: "Audiowide" , sans-serif; 
+    font-size: 20px; 
+    color: #ffffff; 
+    margin-top: 40px;
+
+}
+
+.escolha{
+    font-family: "Audiowide", sans-serif; 
+    font-size: 20px; 
+    font-weight: bold;
+    color: #000000;
+    background: #00008b;
+    border-radius: 10px; 
+    text-align: center; 
+    padding: 20px;
+    width: 150px;
+    margin-top: 40px;
+}
+
+.escolha:hover { 
+    color: #a821bd;
+    transition: color 1s; 
+    
+}
+
+.alien{
+    position: absolute;
+    margin-left: 300px;
+}
