@@ -48,6 +48,7 @@ body {
 #alien {
     position: absolute; 
     right: 300px;
+    top: 500px;
 }
 
 #meteoro {
