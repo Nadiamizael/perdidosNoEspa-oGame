@@ -1,3 +1,3 @@
 function iniciaPersonagem () {
-    return (location = "./personagens.html")
+    return (location = "../personagens.html")
 }
