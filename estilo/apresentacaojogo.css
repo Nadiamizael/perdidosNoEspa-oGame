@@ -2,6 +2,7 @@ body {
     background: url("./space.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 .titulo {
@@ -10,7 +11,7 @@ body {
     color: #ffffff; 
     font-weight: bold;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 100px;
 
 }
 
@@ -20,32 +21,26 @@ body {
     color: #ffffff;
     text-align: center; 
     font-weight: bold; 
-    margin-top: 5%;
+    margin-top: 100px;
 
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
 }
 
 
 .escolhapersonagem {
-    font-family: "Audiowide" , sans-serif; 
-    font-weight: bold;
-    color: #000000;
     background: #00008b;
-    border-radius: 10px;
-    padding: 20px;
-    position: absolute;
-    left: 31%;
-    top: 70%; 
+    color: #000000; 
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px; 
+    font-weight: bold;
+    padding: 20px 50px;
+    border-radius: 5px; 
+    cursor: pointer;
 }
 
 .escolhapersonagem:hover {
-    padding: 25px; 
-    transition: padding 1s; 
+    padding: 25px 55px;  
     color: #a821bd;
+    transition:  padding 1s; 
 }
 
     
