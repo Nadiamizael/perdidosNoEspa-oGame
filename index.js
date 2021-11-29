@@ -1,3 +1,3 @@
 function start () {
-    return location = "./apresentacaoJogo.html"
+    return location = "./apresentacaojogo.html"
 }
